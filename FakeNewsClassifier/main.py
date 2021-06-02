@@ -19,7 +19,7 @@ SVM = pickle.load(open("/Users/rustemmatiev/Projects/FakeNewsClassifier/models/S
 
 @app.route("/",methods=['GET'])
 def hello_world():
-    return 'Йов, братан!'
+    return 'Service is working properly!'
 
 @app.route("/predict",methods=['GET'])
 def predict():
